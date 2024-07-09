@@ -214,3 +214,13 @@ padding: 20px 0px;
 .card-bg-3{
   background: rgba(255, 223, 0, 0.05);
 }
+
+
+.feedback{
+  width: 1140px;
+height: 313px;
+background-image: linear-gradient(to top, rgb(0 0 0 / 79%), rgba(39, 33, 37, 0.73)), url(assets/handshake.jpg);
+url('assets/handshake.jpg');
+url(./assets/handshake.jpg) no-repeat;
+background-size: cover;
+}
