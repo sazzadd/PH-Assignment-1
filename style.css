@@ -30,7 +30,35 @@ main {
   text-align: center;
   padding: 5px 0px;
 }
-
+/* top-header SECTION*/
+.top-header{
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.top-header h1{
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  padding: 30px 0px;
+}
+.top-header a{
+  text-decoration: none;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  margin-top: 20px;
+  border: 1px solid rgb(13, 19, 33);
+  width: 228px;
+  padding: 15px 0 0 0;
+height: 58px;
+}
 /*BANNNER SECTION*/
 .banner {
   width: 100%;
@@ -133,6 +161,7 @@ main {
   font-weight: 400;
   line-height: 26px;
 }
+/* insperatin SECTION*/
 .inspiration {
     margin-bottom: 100px;
 }
@@ -161,6 +190,7 @@ main {
   color: #3e71cb;
   border: 1px solid #3e71cb;
 }
+
 .video-container {
   width: 1076px;
   height: 570px;
@@ -177,6 +207,7 @@ main {
   box-shadow: 1px 1px 5px -4px rgba(0, 0, 0, 0.75);
       
 }
+/* present Target SECTION*/
 .target{
   margin-bottom: 110px;
 }
@@ -227,7 +258,7 @@ padding: 20px 0px;
   background: rgba(255, 223, 0, 0.05);
 }
 
-
+/* FEEDBACK SECTION*/
 .feedback{
  width: 1140px;
 height: 313px;
@@ -290,6 +321,7 @@ form {
   align-items: center;
   justify-content: center;
 }
+/* FOOTER SECTION*/
 footer{
 
   background: rgba(13, 19, 33, 0.03);
@@ -327,4 +359,43 @@ footer ul li a img:hover{
   width: 40px;
   height: 40px;
   transition: 1s al ease;
+}
+.next-target{
+  margin:50px auto;
+}
+.taget-card-container .card-item{
+  border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+display: flex;
+padding: 40px;
+margin-top: 30px;
+}
+.taget-card-container .card-item article {
+  margin-left:30px;
+}
+
+.taget-card-container .card-item article h3{
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+}
+
+.taget-card-container .card-item article p{
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+padding-bottom: 20px;
+}
+.taget-card-container .card-item article a{
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+
 }
