@@ -229,11 +229,9 @@ padding: 20px 0px;
 
 
 .feedback{
-  width: 1140px;
+ width: 1140px;
 height: 313px;
 background-image: linear-gradient(to top, rgb(0 0 0 / 79%), rgba(39, 33, 37, 0.73)), url(assets/handshake.jpg);
-url('assets/handshake.jpg');
-url(./assets/handshake.jpg) no-repeat;
 background-size: cover;
 display: flex;
 padding: 64px 48px 64px 48px;
