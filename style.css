@@ -1,7 +1,7 @@
 /*Google-Font link */
 @import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
 /*universel */
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -51,6 +51,9 @@ main {
   flex-direction: column;
   justify-content: center;
 }
+.banner .banner-container img{
+  margin-bottom: 32px;
+}
 .banner .banner-container h1 {
   color: #0d1321;
   font-family: Azeret Mono;
@@ -74,6 +77,12 @@ main {
   line-height: 23px;
   margin-top: 32px;
   cursor: pointer;
+  transition: all 1s ease;
+}
+.banner .banner-container a:hover{
+  color: #0d1321;
+  background: #ffffff;
+  border:2px solid #0d1321;
 }
 /*devlopment SECTION*/
 .devlopment {
@@ -83,6 +92,9 @@ main {
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.02);
   margin-bottom: 110px;
+}
+.devlopment .title-des-container h2{
+  padding-top: 40px;
 }
 .devlopment-items-wrapper {
   display: flex;
@@ -152,7 +164,7 @@ main {
 .video-container {
   width: 1076px;
   height: 570px;
-  border: 20px solid rgba(13, 19, 33, 0.2);
+  border: 20px solid rgba(22, 32, 55, 0.2);
   border-radius: 16px;
   box-shadow: 1px 1px 5px -4px rgba(0, 0, 0, 0.75);
   margin: 30px auto;
@@ -160,7 +172,7 @@ main {
 .iframe {
   width: 946px;
   height: 550;
-  border: 3px solid rgba(13, 19, 33, 0.2);
+  border: 3px solid rgba(13, 19, 33, 0.134);
   border-radius: 16px;
   box-shadow: 1px 1px 5px -4px rgba(0, 0, 0, 0.75);
       
@@ -279,4 +291,42 @@ form {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+footer{
+
+  background: rgba(13, 19, 33, 0.03);
+}
+.footer-container{
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 16px;
+  height: 100px;
+  padding: 30px 48px 20px 0px;
+}
+
+.footer-container p{
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+padding: 10px 0;
+}
+footer ul{
+  display: flex;
+}
+footer ul li{
+  padding: 0 10px;
+  list-style: none;
+  font-family: Azeret Mono;
+}
+footer ul li a{
+  text-decoration: none;
+}
+footer ul li a img:hover{
+  width: 40px;
+  height: 40px;
+  transition: 1s al ease;
 }
