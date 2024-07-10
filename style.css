@@ -1,7 +1,7 @@
 /*Google-Font link */
 @import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
 /*universel */
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -19,7 +19,7 @@ main {
   font-weight: 400;
   line-height: 26px;
   text-align: center;
-  padding: 32px 0;
+  padding: 32px 35px;
 }
 .title {
   color: rgb(13, 19, 33);
@@ -31,13 +31,13 @@ main {
   padding: 5px 0px;
 }
 /* top-header SECTION*/
-.top-header{
+.top-header {
   width: 1140px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
-.top-header h1{
+.top-header h1 {
   color: rgb(13, 19, 33);
   font-family: Azeret Mono;
   font-size: 32px;
@@ -45,7 +45,7 @@ main {
   line-height: 37px;
   padding: 30px 0px;
 }
-.top-header a{
+.top-header a {
   text-decoration: none;
   color: rgb(13, 19, 33);
   font-family: Azeret Mono;
@@ -57,7 +57,7 @@ main {
   border: 1px solid rgb(13, 19, 33);
   width: 228px;
   padding: 15px 0 0 0;
-height: 58px;
+  height: 58px;
 }
 /*BANNNER SECTION*/
 .banner {
@@ -79,7 +79,7 @@ height: 58px;
   flex-direction: column;
   justify-content: center;
 }
-.banner .banner-container img{
+.banner .banner-container img {
   margin-bottom: 32px;
 }
 .banner .banner-container h1 {
@@ -107,10 +107,10 @@ height: 58px;
   cursor: pointer;
   transition: all 1s ease;
 }
-.banner .banner-container a:hover{
+.banner .banner-container a:hover {
   color: #0d1321;
   background: #ffffff;
-  border:2px solid #0d1321;
+  border: 2px solid #0d1321;
 }
 /*devlopment SECTION*/
 .devlopment {
@@ -121,7 +121,7 @@ height: 58px;
   background: rgba(13, 19, 33, 0.02);
   margin-bottom: 110px;
 }
-.devlopment .title-des-container h2{
+.devlopment .title-des-container h2 {
   padding-top: 40px;
 }
 .devlopment-items-wrapper {
@@ -163,7 +163,7 @@ height: 58px;
 }
 /* insperatin SECTION*/
 .inspiration {
-    margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 .article-item article a {
   width: auto;
@@ -205,92 +205,97 @@ height: 58px;
   border: 3px solid rgba(13, 19, 33, 0.134);
   border-radius: 16px;
   box-shadow: 1px 1px 5px -4px rgba(0, 0, 0, 0.75);
-      
 }
 /* present Target SECTION*/
-.target{
+.target {
   margin-bottom: 110px;
 }
-.card-container{
+.card-container {
   display: flex;
   justify-content: center;
   margin-top: 48px 0px 48px 0;
-  gap: 20px;}
-.card{
+  gap: 20px;
+}
+.card {
   width: 364px;
   height: 299px;
   border-radius: 16px;
-background: rgba(164, 79, 58, 0.05);
-padding: 40px;
+  background: rgba(164, 79, 58, 0.05);
+  padding: 40px;
 }
-.card h3{
+.card h3 {
   color: rgb(13, 19, 33);
   font-family: Azeret Mono;
   font-size: 24px;
   font-weight: 800;
   line-height: 36px;
-  margin:8px 0px;
+  margin: 8px 0px;
 }
 
-.card p{
+.card p {
   color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
 }
-.card a{
+.card a {
   color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 700;
-line-height: 19px;
-display: inline-block;
-padding: 20px 0px;
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  display: inline-block;
+  padding: 20px 0px;
 }
-.card-bg-1{
+.card-bg-1 {
   background: rgba(255, 76, 30, 0.05);
 }
-.card-bg-2{
+.card-bg-2 {
   background: rgba(0, 76, 232, 0.05);
 }
-.card-bg-3{
+.card-bg-3 {
   background: rgba(255, 223, 0, 0.05);
 }
 
 /* FEEDBACK SECTION*/
-.feedback{
- width: 1140px;
-height: 313px;
-background-image: linear-gradient(to top, rgb(0 0 0 / 79%), rgba(39, 33, 37, 0.73)), url(assets/handshake.jpg);
-background-size: cover;
-display: flex;
-padding: 64px 48px 64px 48px;
-align-items: center;
-border-radius: 16px;
-flex-direction: column;
-justify-content: center;
-text-align: center;
-margin: 40px 0 80px 0;
+.feedback {
+  width: 1140px;
+  height: 313px;
+  background-image: linear-gradient(
+      to top,
+      rgb(0 0 0 / 79%),
+      rgba(39, 33, 37, 0.73)
+    ),
+    url(assets/handshake.jpg);
+  background-size: cover;
+  display: flex;
+  padding: 64px 48px 64px 48px;
+  align-items: center;
+  border-radius: 16px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 40px 0 80px 0;
 }
-.feedback h2{
+.feedback h2 {
   color: rgb(255, 255, 255);
-font-family: Azeret Mono;
-font-size: 32px;
-font-weight: 700;
-margin: 16px 0px;
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 16px 0px;
 }
-.feedback p{
+.feedback p {
   color: rgb(255, 255, 255);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-padding: 20px 0 45px 0;
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 20px 0 45px 0;
 }
-input[type=text] {
+input[type="text"] {
   width: 548px;
-height: 58px;
+  height: 58px;
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
@@ -299,22 +304,22 @@ height: 58px;
   font-family: Azeret Mono;
   padding: 19px 20px 19px 20px;
 }
-input[type=submit] {
+input[type="submit"] {
   width: 120px;
-height: 58px;
-  background-color: #4CAF50;
+  height: 58px;
+  background-color: #4caf50;
   align-items: center;
-padding: 17px 20px 17px 20px;
+  padding: 17px 20px 17px 20px;
   margin: 8px 16px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   background: #ffffff;
   color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 20px;
-font-weight: 600;
-line-height: 23px;
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
 }
 form {
   display: flex;
@@ -322,11 +327,10 @@ form {
   justify-content: center;
 }
 /* FOOTER SECTION*/
-footer{
-
+footer {
   background: rgba(13, 19, 33, 0.03);
 }
-.footer-container{
+.footer-container {
   width: 1140px;
   margin: 0 auto;
   display: flex;
@@ -336,66 +340,66 @@ footer{
   padding: 30px 48px 20px 0px;
 }
 
-.footer-container p{
+.footer-container p {
   color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 20px;
-font-weight: 600;
-line-height: 23px;
-padding: 10px 0;
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  padding: 10px 0;
 }
-footer ul{
+footer ul {
   display: flex;
 }
-footer ul li{
+footer ul li {
   padding: 0 10px;
   list-style: none;
   font-family: Azeret Mono;
 }
-footer ul li a{
+footer ul li a {
   text-decoration: none;
 }
-footer ul li a img:hover{
+footer ul li a img:hover {
   width: 40px;
   height: 40px;
   transition: 1s al ease;
 }
-.next-target{
-  margin:50px auto;
+/* NEXT target SECTION*/
+.next-target {
+  margin: 50px auto;
 }
-.taget-card-container .card-item{
+.taget-card-container .card-item {
   border: 1px solid rgba(13, 19, 33, 0.15);
-border-radius: 16px;
-background: rgb(255, 255, 255);
-display: flex;
-padding: 40px;
-margin-top: 30px;
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  display: flex;
+  padding: 40px;
+  margin-top: 30px;
 }
 .taget-card-container .card-item article {
-  margin-left:30px;
+  margin-left: 30px;
 }
 
-.taget-card-container .card-item article h3{
+.taget-card-container .card-item article h3 {
   color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 24px;
-font-weight: 800;
-line-height: 36px;
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
 }
 
-.taget-card-container .card-item article p{
+.taget-card-container .card-item article p {
   color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-padding-bottom: 20px;
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-bottom: 20px;
 }
-.taget-card-container .card-item article a{
+.taget-card-container .card-item article a {
   color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 700;
-line-height: 19px;
-
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
 }
